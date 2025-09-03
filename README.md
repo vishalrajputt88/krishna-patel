@@ -614,7 +614,7 @@
 
         /* Scroll Animations */
         .fade-in {
-            opacity: 0;
+            
             transform: translateY(30px);
             transition: all 0.6s ease;
         }
