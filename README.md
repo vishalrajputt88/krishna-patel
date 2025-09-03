@@ -103,6 +103,7 @@
         nav {
             position: fixed;
             top: 0;
+            left: 0px;
             width: 100%;
             padding: 1rem 2rem;
             background: rgba(15, 15, 15, 0.9);
@@ -622,6 +623,17 @@
         .fade-in.visible {
             opacity: 1;
             transform: translateY(0);
+        }
+
+        @media (max-width: 767px) {
+            .nav-links {     display: flex
+;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px; margin: 0px; }
+    .logo { display: none;  }
+
+        
         }
     </style>
 </head>
