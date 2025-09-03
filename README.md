@@ -630,7 +630,7 @@
 ;
     align-items: center;
     justify-content: center;
-    padding-left: 0px; margin: 0px; }
+    padding-left !important: 0px; margin: 0px; }
     .logo { display: none;  }
 
         
