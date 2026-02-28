@@ -38,6 +38,8 @@
   ::-webkit-scrollbar { width: 3px; }
   ::-webkit-scrollbar-track { background: var(--bg); }
   ::-webkit-scrollbar-thumb { background: var(--accent1); border-radius: 2px; }
+  .markdown-body img { background: transparent !important; }
+  .container-lg { max-width: 100% !important; }
 
   /* NOISE */
   body::before {
@@ -226,7 +228,7 @@
     box-shadow:0 0 80px rgba(155,89,208,.18);
   }
   .sg-s1-ph::after { content:''; position:absolute; inset:0; background:linear-gradient(to top,rgba(10,8,14,1) 0%,transparent 40%); }
-  .sg-s1-ph img { width:100%; height:100%; object-fit:cover; object-position:top; position:relative; z-index:1; mix-blend-mode:luminosity; opacity:.85; filter:contrast(1.1) grayscale(15%); }
+  .sg-s1-ph img { width:100%; height:100%; object-fit:cover; object-position:top; position:relative; z-index:1;  }
 
   .sg-s1-strip {
     position:absolute; top:0; left:0; bottom:0; width:28px;
