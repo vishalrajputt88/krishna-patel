@@ -38,6 +38,7 @@
   ::-webkit-scrollbar-thumb { background: var(--accent1); border-radius: 2px; }
   .markdown-body img { background: transparent !important; }
   .container-lg { max-width: 100% !important; }
+  .container-lg.px-3.my-5.markdown-body h1:first-child { display: none !important;}
 
   /* NOISE */
   body::before {
