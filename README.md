@@ -33,6 +33,7 @@
   ::-webkit-scrollbar { width: 3px; }
   ::-webkit-scrollbar-track { background: var(--bg); }
   ::-webkit-scrollbar-thumb { background: var(--accent1); border-radius: 2px; }
+  .container-lg { width: 100% !important; } 
 
   /* NOISE */
   body::before {
