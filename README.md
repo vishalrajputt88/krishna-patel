@@ -626,12 +626,20 @@
     .sg-s6-foot { padding: 18px 20px; }
     .sg-s6-ring { width: 78vw; height: 78vw; }
   }
-  @media (max-width: 480px) {
+  @media (max-width: 767px) {
     .gallery-masonry { columns: 1; }
     .playlist-grid { grid-template-columns: 1fr; }
     .awards-strip { grid-template-columns: 1fr; }
     .hero-img-grid { grid-template-columns: repeat(2,1fr); }
+    .sg-s1-photo {
+    left: unset;
+    transform: unset;
+    width: unset;
+}
   }
+
+
+  
 </style>
 </head>
 <body>
