@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -37,7 +38,6 @@
   ::-webkit-scrollbar { width: 3px; }
   ::-webkit-scrollbar-track { background: var(--bg); }
   ::-webkit-scrollbar-thumb { background: var(--accent1); border-radius: 2px; }
-  .container-lg {  max-width: 100% !important;}
 
   /* NOISE */
   body::before {
@@ -698,7 +698,7 @@
       <div class="sg-s1-photo">
         <div class="sg-s1-ph">
           <!-- Replace src with Kreeshna's actual photo -->
-          <img src="" alt="Kreeshna Patel" onerror="this.style.display='none'">
+          <img src="https://cdn.shopify.com/s/files/1/0971/9250/9808/files/New_music_soon__Pic_cr_-__rishiitomar-removebg-preview.png?v=1772306393" alt="Kreeshna Patel" onerror="this.style.display='none'">
         </div>
       </div>
       <div class="sg-s1-strip">BLU-RAY &amp; DVD · NOW ON SALE!</div>
